@@ -1,0 +1,46 @@
+.mnie__banner {
+    background-image: url("../images/o_mine_banner.png");
+    height: 305px;
+}
+
+.mnie__info {
+    height: 754px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-image: url("../images/o_mnie_main_background.png");
+}
+
+.mnie__info__image {
+    line-height: 0;
+}
+
+.mnie__info__text {
+    display: block;
+    margin-top: -45px;
+}
+
+.mnie__info__text .button{
+    display: block;
+    text-align: center;
+    margin-top: 30px;
+    width: 300px;
+}
+
+.mnie__info__text__tittle {
+    margin-bottom: 10px;
+    font-family: Ephesis,sans-serif;
+    color: var(--color-primary);
+    font-size: 70px;
+    text-align: center;
+}
+
+.mnie__info__text__description {
+    width: 510px;
+    text-align: justify;
+    color: var(--color-text);
+    font-size: 20px;
+    margin-bottom: 15px;
+}

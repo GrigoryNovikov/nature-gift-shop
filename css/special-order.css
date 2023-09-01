@@ -1,0 +1,81 @@
+.spec-order {
+    background-image: url("../images/spec-order-background.png");
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas:
+    "a a b";
+    height: 797px;
+    align-items: center;
+}
+
+.spec-order-banner {
+    height: 492px;
+    background-image: url("../images/spec-order-banner.png");
+    margin-bottom: 30px;
+}
+
+.spec-order-content {
+    grid-area: a;
+    align-self: start;
+    padding-top: 15px;
+}
+
+.spec-order-content__title {
+    font-family: Ephesis, sans-serif;
+    font-size: 67px;
+    text-align: center;
+    color: var(--color-primary);
+}
+
+.spec-order-content-list {
+    list-style: none;
+}
+
+.spec-order-content-list__item{
+    margin: 0 auto 10px;
+    text-align: center;
+    font-size: 20px;
+    max-width: 570px;
+}
+
+.spec-order-content__text {
+    margin-bottom: 0;
+}
+
+.spec-order-content .individual-order__link {
+    font-size: 22px;
+    text-align: center;
+}
+
+.spec-order-content .button {
+    margin-top: 20px;
+}
+
+.spec-order-slider {
+    grid-area: b;
+    justify-self: center;
+    height: 515px;
+    width: 515px;
+    margin-right: 40px;
+}
+
+.individual-order__link {
+    cursor: pointer;
+    margin-left: 35px;
+    color: var(--color-text);
+    font-size: 30px;
+}
+
+.individual-order__link::before {
+    content: url("../images/instruction-ico.png");
+    display: inline-block;
+    position: relative;
+    left: -15px;
+    top: 7px;
+    width: 36px;
+    height: 43px;
+}
+
+.individual-order__link.link-ease-in-out a::after {
+    background-color: var(--color-text);
+}

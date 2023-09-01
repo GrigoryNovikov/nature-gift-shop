@@ -1,0 +1,83 @@
+
+
+.gift-card-banner {
+    background-image: url("../images/o_mine_banner.png");
+    height: 305px;
+    margin-bottom: 30px;
+}
+
+.gift-card-title {
+    font-family: Ephesis, sans-serif;
+    font-size: 60px;
+    color: var(--color-primary);
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.gift-card-list {
+    text-align: center;
+    list-style: none;
+    margin-bottom: 30px;
+}
+
+.gift-card-list__item {
+    margin-bottom: 20px;
+    font-size: 22px;
+}
+
+.gift-card-images{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.gift-card-images__item {
+    padding-top: 20px;
+    max-width: 550px;
+    background-color: var(--color-rose);
+    text-align: center;
+}
+
+.gift-card-images__item__text {
+    color: var(--color-primary);
+    font-size: 35px;
+    margin: 20px 0;
+}
+
+.gift-card-images__item .button {
+    margin-bottom: 25px;
+}
+
+.gift-card-description p {
+    font-size: 35px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+.gift-card-description__list {
+    list-style: none;
+}
+
+.gift-card-description__list__item {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.gift-card-use p {
+    font-size: 35px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+.gift-card-use__list {
+    list-style: decimal;
+    padding-left: 25px;
+}
+
+.gift-card-use__list__item {
+    font-size: 22px;
+    margin-bottom: 5px;
+}

@@ -1,0 +1,123 @@
+.packing__banner {
+    background-image: url("../images/baner_packing.png");
+    height: 371px;
+}
+
+.packing__info {
+    height: 690px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-image: url("../images/packing_info_background.jpg");
+}
+
+.packing__info__text__tittle {
+    margin-bottom: 20px;
+    font-family: Ephesis,sans-serif;
+    color: var(--color-primary);
+    font-size: 70px;
+    text-align: center;
+    line-height: 50px;
+}
+
+.packing__info__text__description {
+    width: 530px;
+    text-align: justify;
+    color: var(--color-text);
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.packing__info__image {
+    position: relative;
+    line-height: 0;
+}
+
+.packing__info__image .inst__button:hover {
+    transform: scale(1.2);
+    transition: all 0.5s;
+}
+
+.inst__button {
+    cursor: pointer;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    background-image: url("../images/action-button.png");
+    background-size: cover;
+    transform: scale(1);
+    transition: all 0.5s;
+}
+
+.inst__button:hover {
+    transform: scale(1.2);
+    transition: all 0.5s;
+}
+
+.packing__info__image__button {
+    width: 84px;
+    height: 101px;
+}
+
+.instagram {
+    margin: 30px 0;
+    text-align: center;
+}
+
+.link-ease-in-out a:after {
+    background-color: var(--color-text);
+}
+
+.instagram__tittle {
+    font-family: Ephesis, sans-serif;
+    color: var(--color-primary);
+    font-size: 55px;
+}
+
+.instagram__link {
+    color: var(--color-text);
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.instagram__items {
+    padding: 0 20px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.instagram__item {
+    cursor: pointer;
+    position: relative;
+    margin: 20px;
+}
+
+.instagram__item .inst__button {
+    height: 81px;
+    width: 67px;
+}
+
+.footer {
+    margin-top: 85px;
+    position: relative;
+}
+
+.footer::before {
+    content: '';
+    background-image: url("../images/footer-line.jpg");
+    height: 74px;
+    width: 1240px;
+    position: absolute;
+    right: 0;
+    top: -73px;
+    z-index: -1;
+}

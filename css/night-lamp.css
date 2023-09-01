@@ -1,0 +1,50 @@
+.lamp__banner {
+    background-image: url("../images/lamp_banner.png");
+    height: 484px;
+    margin-bottom: 25px;
+}
+
+.lamp__tittle {
+    font-family: Ephesis, sans-serif;
+    color: var(--color-primary);
+    font-size: 60px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.lamp__items {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 120px;
+}
+
+.lamp__item {
+    cursor: pointer;
+    width: 550px;
+    height: 662px;
+    background-color: var(--color-rose);
+    transform: scale(1);
+    transition: 0.5s;
+}
+
+.lamp__item:hover {
+    transform: scale(1.03);
+    transition: 0.5s;
+}
+
+.lamp__item:hover {
+
+}
+
+.lamp__item__image {
+    padding-top: 20px;
+}
+
+.lamp__item__text {
+    text-align: center;
+    font-size: 50px;
+    color: var(--color-primary);
+    margin-top: 15px;
+}

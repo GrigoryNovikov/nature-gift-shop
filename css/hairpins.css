@@ -1,0 +1,32 @@
+.shop__banner {
+    margin-bottom: 30px;
+}
+
+.hairpins-tittle {
+    font-family: Ephesis, sans-serif;
+    text-align: center;
+    color: var(--color-primary);
+    font-size: 60px;
+    line-height: 40px;
+}
+
+.lamp__slider {
+    background-image: url("../images/spinki-slider-background1.png");
+    height: 636px;
+    align-items: center;
+}
+
+
+.lamp__slider__action {
+    max-width: 595px;
+}
+
+.slick-slide img {
+    max-width: 595px;
+    display: block;
+}
+
+.lamp__slider__text__description {
+    font-size: 23px;
+    max-width: 465px;
+}

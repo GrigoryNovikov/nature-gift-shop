@@ -4,7 +4,7 @@ $(document).ready(() => {
         slidesToShow: 1,
         slidesToScroll: 1,
         prevArrow: "<img src='images/left_arrow.svg' alt='1' class='slick-prev'>",
-        nextArrow: "<img src='images/action-button.png' alt='1' class='slick-next'>",
+        nextArrow: "<img src='images/right_arrow.svg' alt='1' class='slick-next'>",
         autoplay: true,
         autoplaySpeed: 4000,
         pauseOnHover: true

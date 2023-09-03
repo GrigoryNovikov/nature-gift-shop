@@ -38,6 +38,10 @@ body {
     justify-content: center;
 }
 
+.header {
+    margin-top: 5px;
+}
+
 .container {
     max-width: 1240px;
     margin: 0 auto;
@@ -100,9 +104,15 @@ body {
     cursor: pointer;
 }
 
+/*.active {*/
+/*    background-color: red; !* Цвет линии при наведении на нее курсора мыши *!*/
+/*    width: 100%;*/
+/*}*/
+
 .tittle {
     font-family: Ephesis, sans-serif;
     color: var(--color-primary);
+    font-size: 60px;
 }
 
 .main-banner-slide {
@@ -408,6 +418,8 @@ body {
 .slick-prev {
     left: 5px;
     z-index: 1;
+    background-image: url("../images/left_arrow.svg");
+    background-size: cover;
 }
 
 .slick-next {

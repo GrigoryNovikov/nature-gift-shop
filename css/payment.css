@@ -1,0 +1,60 @@
+.care__banner {
+    margin-bottom: 10px;
+}
+
+.container {
+    padding-left: 30px;
+}
+
+.payment-title {
+    font-family: Ephesis, sans-serif;
+    color: var(--color-primary);
+    font-size: 60px;
+    line-height: 50px;
+    text-align: center;
+    margin: 40px 0 20px;
+}
+
+.delivery-subtitle {
+    font-weight: 600;
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+
+p {
+    max-width: 1100px;
+}
+
+h4 {
+    font-size: 23px;
+    margin: 20px 0 15px;
+}
+
+h5 {
+    margin-top: 25px;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+h5:after {
+    content: '';
+    display: inline-block;
+    background-image: url("../images/heart.svg");
+    background-size: cover;
+    width: 23px;
+    height: 22px;
+    margin-left: 10px;
+}
+
+a.button {
+    width: 230px;
+    margin-left: 0px;
+}
+
+ul {
+    padding-left: 30px;
+}
+
+.footer {
+    margin-top: 150px;
+}

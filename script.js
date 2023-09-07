@@ -28,6 +28,15 @@ $(document).ready(() => {
         pauseOnHover: true
     });
 
+
+
+    // pendant.click((e) =>{
+    //     let currentElement = $(e.target);
+    //     pendants.removeClass('visible');
+    // })
+
+
+
     // $('.navigation__item').click((e) => {
     //     let currentElement = $(e.target);
     //     $('.navigation__item').removeClass('active');

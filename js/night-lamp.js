@@ -1,5 +1,4 @@
 $(document).ready(() => {
-
     $('.big-lamp__slider').slick({
         slidesToShow: 1,
         slidesToScroll: 1,
@@ -15,9 +14,5 @@ $(document).ready(() => {
         centerMode: false,
         focusOnSelect: true
     });
-
-
-
-
 });
 

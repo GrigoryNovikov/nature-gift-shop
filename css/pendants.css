@@ -1,0 +1,54 @@
+.pendants-banner {
+    background-image: url("../images/pendants-banner.png");
+    height: 485px;
+    margin-bottom: 30px;
+}
+
+.pendants-title {
+    font-family: Ephesis, sans-serif;
+    font-size: 55px;
+    color: var(--color-primary);
+    text-align: center;
+}
+
+.pendants-items {
+    display: flex;
+    padding: 0 8px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.invisible {
+    display: none;
+}
+
+.pendants-item {
+    margin: 15px 8px 0;
+    cursor: pointer;
+    transform: scale(1);
+    transition: 0.5s;
+}
+
+.pendants-item:hover {
+    transform: scale(1.03);
+}
+
+.pendants-item__description {
+    font-size: 17px;
+    color: var(--color-primary);
+}
+
+.pendants-item__price {
+    font-size: 19px;
+    color: var(--color-text);
+}
+
+#back-arrow {
+    cursor: pointer;
+}
+
+#block {
+    /*display: none;*/
+}

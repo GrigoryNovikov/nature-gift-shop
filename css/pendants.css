@@ -45,11 +45,11 @@
     color: var(--color-text);
 }
 
-#back-arrow {
+.back-arrow {
     cursor: pointer;
 }
 
-#pendant1, #pendant2, #pendant3 {
+#pendant1, #pendant7 {
     display: none;
 }
 

@@ -1,0 +1,53 @@
+.bracelets-banner {
+    background-image: url("/images/banners/bracelets-banner.png");
+    height: 518px;
+    margin-bottom: 30px;
+}
+
+.bracelets-title {
+    font-family: Ephesis, sans-serif;
+    font-size: 55px;
+    color: var(--color-primary);
+    text-align: center;
+}
+
+.bracelets-items {
+    display: flex;
+    padding: 0 8px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.bracelets-item {
+    margin: 15px 8px 0;
+}
+
+.bracelets-item__image {
+    max-width: 290px;
+    max-height: 290px;
+    transform: scale(1);
+    transition: 0.5s;
+    cursor: pointer;
+    will-change: transform;
+    transform-origin: center center;
+}
+
+.bracelets-item__image:hover {
+    transform: scale(1.03);
+}
+
+.bracelets-item__description {
+    font-size: 17px;
+    color: var(--color-primary);
+}
+
+.bracelets-item__price {
+    font-size: 19px;
+    color: var(--color-text);
+}
+
+.footer {
+    margin-top: 125px;
+}

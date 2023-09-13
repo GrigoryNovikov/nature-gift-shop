@@ -39,7 +39,7 @@ h5 {
 h5:after {
     content: '';
     display: inline-block;
-    background-image: url("../images/heart.svg");
+    background-image: url("images/svg/heart.svg");
     background-size: cover;
     width: 23px;
     height: 22px;

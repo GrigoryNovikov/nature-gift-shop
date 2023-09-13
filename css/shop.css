@@ -1,5 +1,5 @@
 .shop__banner {
-    background-image: url("../images/shop-banner.png");
+    background-image: url("../images/banners/shop-banner.png");
     height: 448px;
 }
 
@@ -43,6 +43,8 @@
     cursor: pointer;
     transform: scale(1);
     transition: 0.5s;
+    will-change: transform;
+    transform-origin: center center;
 }
 
 .other-product {

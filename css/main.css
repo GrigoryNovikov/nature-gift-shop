@@ -120,13 +120,13 @@ body {
 }
 
 .main-banner-slide.first {
-    background-image: url("../images/baner.png");
+    background-image: url("../images/banners/baner.png");
 }
 .main-banner-slide.second {
-    background-image: url("../images/main-baner2.png");
+    background-image: url("../images/banners/main-baner2.png");
 }
 .main-banner-slide.third {
-    background-image: url("../images/main-baner3.png");
+    background-image: url("../images/banners/main-baner3.png");
 }
 
 .first .banner__text {
@@ -192,6 +192,8 @@ body {
     border-radius: 15px;
     transform: scale(1);
     transition: 0.5s;
+    will-change: transform;
+    transform-origin: center center;
 }
 
 .category__item:hover {
@@ -418,8 +420,6 @@ body {
 .slick-prev {
     left: 5px;
     z-index: 1;
-    background-image: url("../images/left_arrow.svg");
-    background-size: cover;
 }
 
 .slick-next {

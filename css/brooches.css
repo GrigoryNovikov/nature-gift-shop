@@ -1,0 +1,53 @@
+.brooches-banner {
+    background-image: url("/images/banners/brooches-banner.png");
+    height: 422px;
+    margin-bottom: 20px;
+}
+
+.brooches-title {
+    font-family: Ephesis, sans-serif;
+    font-size: 55px;
+    color: var(--color-primary);
+    text-align: center;
+}
+
+.brooches-items {
+    display: flex;
+    padding: 0 8px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.brooches-item {
+    margin: 15px 8px 0;
+}
+
+.brooches-item__image {
+    max-width: 290px;
+    max-height: 290px;
+    transform: scale(1);
+    transition: 0.5s;
+    cursor: pointer;
+    will-change: transform;
+    transform-origin: center center;
+}
+
+.brooches-item__image:hover {
+    transform: scale(1.03);
+}
+
+.brooches-item__description {
+    font-size: 17px;
+    color: var(--color-primary);
+}
+
+.brooches-item__price {
+    font-size: 19px;
+    color: var(--color-text);
+}
+
+.footer {
+    margin-top: 125px;
+}

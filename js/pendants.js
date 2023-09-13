@@ -1,34 +1,29 @@
-let pendantElement = document.querySelectorAll('.pendants-item');
+let pendantElement = document.querySelectorAll('.pendants-item img');
 let pendantElements = document.getElementById('pendantElements');
 let pendantsTitle = document.getElementsByTagName('h1');
-let backArrow = document.querySelector('.back-arrow');
+let backArrow = document.querySelectorAll('.back-arrow');
 let pendant = document.querySelectorAll('.pendant')
 
-pendantElements.addEventListener('click', function (element) {
-    let e = element.target;
-    let id = e.alt;
-    pendantElements.style.display = "none";
-    pendantsTitle[0].style.display = "none";
-    document.getElementById(id).style.display = ('flex');
-})
-
-backArrow.onclick = (function () {
-    pendant.forEach((element) => {
-        element.style.display = 'none'
+pendantElement.forEach(item => {
+    item.addEventListener('click', function (element) {
+        let e = element.target;
+        let id = e.alt;
+        pendantElements.style.display = "none";
+        pendantsTitle[0].style.display = "none";
+        document.getElementById(id).style.display = ('grid');
     })
-    pendantElements.style.display = "flex";
-    document.getElementsByTagName('h1')[0].style.display = "block";
 })
 
 
-// pendantElement.forEach((element) => {
-//     element.addEventListener('click', function () {
-//         pendantElements.style.display = "none";
-//         pendantsTitle[0].style.display = "none";
-//         document.getElementById('pendant1').style.display = ('flex');
-//     });
-// });
-//
+backArrow.forEach(item => {
+    item.addEventListener('click', function (item){
+        pendant.forEach((item) => {
+            item.style.display = 'none'
+        })
+        pendantElements.style.display = "flex";
+        document.getElementsByTagName('h1')[0].style.display = "block";
+    });
+})
 
 
 $(document).ready(() => {

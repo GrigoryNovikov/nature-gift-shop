@@ -1,0 +1,144 @@
+.catalog-items-title {
+    font-family: Ephesis, sans-serif;
+    font-size: 55px;
+    color: var(--color-primary);
+    text-align: center;
+}
+
+.catalog-items {
+    display: flex;
+    padding: 0 8px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.catalog-item {
+    margin: 15px 8px 0;
+}
+
+.catalog-item__image {
+    max-width: 290px;
+    max-height: 290px;
+    transform: scale(1);
+    transition: 0.5s;
+    cursor: pointer;
+    will-change: transform;
+    transform-origin: center center;
+}
+
+.catalog-item__image:hover {
+    transform: scale(1.03);
+}
+
+.catalog-item__description {
+    font-size: 17px;
+    color: var(--color-primary);
+}
+
+.catalog-item__price {
+    font-size: 19px;
+    color: var(--color-text);
+}
+
+.back-arrow {
+    cursor: pointer;
+    grid-area: A;
+    animation: back-arrow 0.8s linear alternate infinite;
+}
+
+@keyframes back-arrow {
+    0% {
+        transform: translate(0, 0);
+    }
+    100%{
+        transform: translate(20px, 0);
+    }
+}
+
+.catalog-item-card__action {
+    grid-area: B;
+}
+
+.catalog-item-card__action__slider {
+    margin-bottom: 4px;
+    margin-right: 30px;
+}
+
+.catalog-item-card__action__slider__image img {
+    width: 550px;
+}
+
+.catalog-item-card__action__slider__nav__image img {
+    width: 136px;
+    height: 136px;cursor: pointer;
+}
+
+.slick-slide img {
+    max-width: 550px;
+}
+
+div.slick-list.draggable {
+    width: 550px;
+}
+
+.catalog-item-card {
+    margin: 60px 0 30px;
+    grid-template-areas:
+            "A A A A A A A A A A"
+            "B B B B B C C C C C"
+            "D D D D D D D D D D";
+}
+
+.catalog-item-card__article {
+    grid-area: C;
+}
+
+.catalog-item-card__article__title {
+    color: var(--color-primary);
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.catalog-item-card__article__price {
+    color: var(--color-text);
+    font-size: 30px;
+    border-top: 1px solid #CCC2BC;
+    max-width: 175px;
+    margin-bottom: 15px;
+}
+
+.catalog-item-card__article__text {
+    color: var(--color-text);
+    font-size: 22px;
+    line-height: 30px;
+    margin-bottom: 15px;
+    width: 600px;
+}
+
+.button {
+    margin: 40px 0 0;
+}
+
+.catalog-item-card__article__description {
+    margin-top: 20px;
+    grid-area: D;
+}
+
+.catalog-item-card__article__description__title {
+    color: var(--color-text);
+    font-size: 40px;
+    margin-bottom: 5px;
+}
+
+.catalog-item-card__article__description__text {
+    color: var(--color-text);
+    text-align: justify;
+    font-size: 22px;
+    line-height: 30px;
+}
+
+.footer {
+    margin-top: 125px;
+}

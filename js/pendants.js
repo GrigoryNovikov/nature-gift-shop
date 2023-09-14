@@ -1,15 +1,17 @@
-let pendantElement = document.querySelectorAll('.pendants-item img');
-let pendantElements = document.getElementById('pendantElements');
-let pendantsTitle = document.getElementsByTagName('h1');
-let backArrow = document.querySelectorAll('.back-arrow');
-let pendant = document.querySelectorAll('.pendant')
+let CatalogItems = document.querySelectorAll('.catalog-items');
 
-pendantElement.forEach(item => {
+let catalogItem = document.querySelectorAll('.catalog-item img');
+let catalogItemsTitle = document.querySelectorAll('.catalog-items-title')
+let catalogItemCard = document.querySelectorAll('.catalog-item-card')
+let backArrow = document.querySelectorAll('.back-arrow');
+let pendantElements = document.getElementById('pendantElements');
+
+catalogItem.forEach(item => {
     item.addEventListener('click', function (element) {
         let e = element.target;
         let id = e.alt;
         pendantElements.style.display = "none";
-        pendantsTitle[0].style.display = "none";
+        catalogItemsTitle[0].style.display = "none";
         document.getElementById(id).style.display = ('grid');
     })
 })
@@ -17,28 +19,28 @@ pendantElement.forEach(item => {
 
 backArrow.forEach(item => {
     item.addEventListener('click', function (item){
-        pendant.forEach((item) => {
+        catalogItemCard.forEach((item) => {
             item.style.display = 'none'
         })
         pendantElements.style.display = "flex";
-        document.getElementsByTagName('h1')[0].style.display = "block";
+        catalogItemsTitle[0].style.display = "block";
     });
 })
 
 
 $(document).ready(() => {
-    $('.pendants-action__slider').slick({
+    $('.catalog-item-card__action__slider').slick({
         slidesToShow: 1,
         slidesToScroll: 1,
         arrows: false,
         fade: true,
-        asNavFor: '.pendants-action__slider__nav'
+        asNavFor: '.catalog-item-card__action__slider__nav'
     });
-    $('.pendants-action__slider__nav').slick({
+    $('.catalog-item-card__action__slider__nav').slick({
         slidesToShow: 4,
         slidesToScroll: 1,
         arrows: false,
-        asNavFor: '.pendants-action__slider',
+        asNavFor: '.catalog-item-card__action__slider',
         centerMode: false,
         focusOnSelect: true
     });

@@ -51,3 +51,10 @@
 .footer {
     margin-top: 125px;
 }
+
+#bransolet\.nezapomin\.krup,
+#bransolet\.oduwan\.temn\.tonk,
+#bransolet\.oduwan\.tonk,
+#bransolet\.skeket\.krup {
+    display: none;
+}

@@ -4,13 +4,13 @@ let catalogItem = document.querySelectorAll('.catalog-item img');
 let catalogItemsTitle = document.querySelectorAll('.catalog-items-title')
 let catalogItemCard = document.querySelectorAll('.catalog-item-card')
 let backArrow = document.querySelectorAll('.back-arrow');
-let pendantElements = document.getElementById('pendantElements');
+let catalogElements = document.getElementById('catalogElements');
 
 catalogItem.forEach(item => {
     item.addEventListener('click', function (element) {
         let e = element.target;
         let id = e.alt;
-        pendantElements.style.display = "none";
+        catalogElements.style.display = "none";
         catalogItemsTitle[0].style.display = "none";
         document.getElementById(id).style.display = ('grid');
     })
@@ -22,7 +22,7 @@ backArrow.forEach(item => {
         catalogItemCard.forEach((item) => {
             item.style.display = 'none'
         })
-        pendantElements.style.display = "flex";
+        catalogElements.style.display = "flex";
         catalogItemsTitle[0].style.display = "block";
     });
 })

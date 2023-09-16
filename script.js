@@ -27,28 +27,4 @@ $(document).ready(() => {
         autoplay: true,
         pauseOnHover: true
     });
-
-
-
-    // pendant.click((e) =>{
-    //     let currentElement = $(e.target);
-    //     pendants.removeClass('visible');
-    // })
-
-
-
-    // $('.navigation__item').click((e) => {
-    //     let currentElement = $(e.target);
-    //     $('.navigation__item').removeClass('active');
-    //     currentElement.addClass('active');
-    // });
-    //
-    // let link = document.querySelectorAll(".navigation__item a");
-    // for (let i = 0, length = link.length; i < length; i++) {
-    //     link[i].onclick = function() {
-    //         let active_link = document.querySelector(".navigation__item .active");
-    //         if (active_link) active_link.classList.remove("active");
-    //         this.parentNode.classList.add('active');
-    //     };
-    // }
 })

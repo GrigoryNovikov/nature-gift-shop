@@ -1,3 +1,12 @@
+// document.onreadystatechange = function() {
+//     if (document.readyState !== "complete") {
+//         document.querySelector("body").style.visibility = "hidden";
+//         document.querySelector("#loader").style.visibility = "visible";
+//     } else {
+//         document.querySelector("#loader").style.display = "none";
+//         document.querySelector("body").style.visibility = "visible";
+//     }
+// };
 $(document).ready(() => {
     $('.main-banner-slider').slick({
         infinite: true,
@@ -5,8 +14,8 @@ $(document).ready(() => {
         slidesToScroll: 1,
         prevArrow: "<img src='images/left_arrow.svg' alt='1' class='slick-prev'>",
         nextArrow: "<img src='images/right_arrow.svg' alt='1' class='slick-next'>",
-        autoplay: true,
-        autoplaySpeed: 4000,
+        autoplay: false,
+        autoplaySpeed: 3000,
         pauseOnHover: true
     });
 
@@ -24,7 +33,7 @@ $(document).ready(() => {
         slidesToScroll: 1,
         prevArrow: "<img src='images/left_arrow.svg' alt='1' class='slick-prev'>",
         nextArrow: "<img src='images/right_arrow.svg' alt='1' class='slick-next'>",
-        autoplay: true,
+        autoplay: false,
         pauseOnHover: true
     });
 })

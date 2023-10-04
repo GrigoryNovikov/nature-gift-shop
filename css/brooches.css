@@ -8,7 +8,9 @@
 #broszka\.bir\.komp,
 #broszka\.oduwan\.temn,
 #broszka\.skeket\.komp,
-#broszka\.nezab\.ozotam\.komp {
+#broszka\.nezab\.ozotam\.komp,
+#broszka\.nezab,
+#broszka\.ozatam {
     display: none;
 }
 

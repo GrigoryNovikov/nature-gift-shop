@@ -16,7 +16,6 @@ catalogItem.forEach(item => {
     })
 })
 
-
 backArrow.forEach(item => {
     item.addEventListener('click', function (item){
         catalogItemCard.forEach((item) => {

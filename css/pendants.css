@@ -25,7 +25,15 @@
 #Wisiorek\.sfera\.komp\.serenjark\.2cm,
 #Wisiorek\.sfera\.komp\.cminsin\.2cm,
 #Wisiorek\.sfera\.gipsof\.zel\.2cm,
-#Wisiorek\.sfera\.moh\.2cm {
+#Wisiorek\.sfera\.moh\.2cm,
+#wisiorek\.niezapominajki\.2cm,
+#wisiorek\.niezapominajki\.1\.6cm,
+#wisiorek\.niezapominaj\.polusfer,
+#wisiorek\.polusfer\.osotamnus,
+#wisiorek\.oduvan\.zolot\.brus,
+#wisiorek\.oduvan\.zolot\.1\.6cm,
+#wisiorek\.oduvan\.2\.5cm,
+#wisiorek\.oduvan\.zolot\.polusfer {
     display: none;
 }
 

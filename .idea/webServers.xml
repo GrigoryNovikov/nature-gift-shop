@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="d553c3bb-0526-4b57-a669-51b3c04a8bc2" name="naturegifts" url="http://91.195.13.3">
+        <fileTransfer rootFolder="/nature_gifts" host="91.195.13.3" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Nature Gift</title>
-    <meta name="viewport" content="width=device-width, initial-scale-1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="plugins/slick/slick.css"/>
     <link rel="stylesheet" href="plugins/slick/slick-theme.css">
     <link rel="stylesheet" href="./css/main.css">
@@ -258,23 +258,21 @@
             <p>Jeśli brakuje Ci jakiejkolwiek informacji na tej stronie, możesz zadać mi pytanie za pomocą tego
                 formularza.</p>
         </div>
-        <form action="" class="questions__form">
-            <input aria-label="" class="name" type="text" placeholder="Imię" name="name">
-            <input aria-label="" class="e-mail" type="text" placeholder="E-mail" name="mail">
-            <input aria-label="" class="theme" type="text" placeholder="Temat wiadomości" name="theme">
-            <input aria-label="" class="questions__form__text" type="text" placeholder="Treść wiadomości" name="text">
+        <form class="validation questions__form form-send">
+            <input aria-label="name" class="name" type="text" placeholder="Imię" id="name" name="name" data-reg="^[а-яА-ЯёЁa-zA-Z0-9]+$">
+            <input aria-label="" class="e-mail" type="text" placeholder="E-mail" id="mail" name="mail" data-reg="^[-\w.]+@([A-z0-9][-A-z0-9]+\.)+[A-z]{2,4}$">
+            <input aria-label="" class="theme" type="text" placeholder="Temat wiadomości" id="theme" name="theme" data-reg="^[а-яА-ЯёЁa-zA-Z0-9]+$">
+            <input aria-label="" class="questions__form__text" type="text" placeholder="Treść wiadomości" id="themeText" name="themeText" data-reg="^[а-яА-ЯёЁa-zA-Z0-9]+$">
             <div class="questions__form__rules">
                 <input id="rules" type="checkbox">
-                <label for="rules">Wyrażam dobrowolnie zgodę na kontaktowanie się ze mną (przy użyciu
+                <label class="questions__form__rules__checkbox" for="rules">Wyrażam dobrowolnie zgodę na kontaktowanie się ze mną (przy użyciu
                     telekomunikacyjnych urządzeń końcowych i automatycznych systemów wywołujących) na podany
                     przeze mnie adres poczty elektronicznej lub numer telefonu, w celu odpowiedzi na zadane
                     pytanie.</label>
             </div>
-            <input type="submit" class="button" placeholder="" value="Wyślij wiadomość">
+            <button type="submit" class="form-button button">Wyślij wiadomość</button>
         </form>
-
     </div>
-
 </main>
 <footer class="footer">
     <div class="footer__navigation">
@@ -310,9 +308,11 @@
     </div>
     <a href="#home" class="scroll-up"></a>
 </footer>
-<script src="js/jquery-3.5.1.min.js"></script>
+
+</body>
+</html>
+<script src="js/jquery-3.7.1.min.js"></script>
 <script src="js/jquery-ui.min.js"></script>
 <script src="js/slick.min.js"></script>
 <script src="script.js"></script>
-</body>
-</html>
+<script src="js/form.js"></script>

@@ -1,0 +1,14 @@
+.rings-banner {
+    background-image: url("../images/banners/rings-banner.png");
+    height: 438px;
+    margin-bottom: 30px;
+}
+
+#IMG_6700,
+#IMG_6736,
+#IMG_6711,
+#IMG_6766,
+#IMG_6952,
+#IMG_6825 {
+    display: none;
+}

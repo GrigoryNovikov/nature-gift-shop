@@ -11,7 +11,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: flex-start;
-    align-items: center;
+    align-items: start;
 }
 
 .catalog-item {
@@ -33,6 +33,7 @@
 }
 
 .catalog-item__description {
+    max-width: 290px;
     font-size: 17px;
     color: var(--color-primary);
 }

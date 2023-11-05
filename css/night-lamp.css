@@ -22,8 +22,8 @@
 
 .lamp__item {
     cursor: pointer;
-    width: 550px;
-    height: 662px;
+    max-width: 550px;
+    max-height: 662px;
     background-color: var(--color-rose);
     transform: scale(1);
     transition: 0.5s;

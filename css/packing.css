@@ -1,5 +1,5 @@
 .packing__banner {
-    background-image: url("/images/banners/packing-banner.png");
+    background-image: url("../images/banners/packing-banner.png");
     height: 371px;
 }
 
@@ -104,20 +104,4 @@
 .instagram__item .inst__button {
     height: 81px;
     width: 67px;
-}
-
-.footer {
-    margin-top: 85px;
-    position: relative;
-}
-
-.footer::before {
-    content: '';
-    background-image: url("../images/footer-line.jpg");
-    height: 74px;
-    width: 1240px;
-    position: absolute;
-    right: 0;
-    top: -73px;
-    z-index: -1;
 }

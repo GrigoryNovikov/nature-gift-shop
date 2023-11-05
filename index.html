@@ -10,11 +10,13 @@
     <link rel="stylesheet" href="./css/adaptive.css">
 </head>
 <body class="body">
-<header class="header">
-    <div class="container">
+<header class="header container ">
         <nav class="navigation">
             <a href="" id="home" class="navigation__logo"><img src="./images/logo.svg" alt="" class="navigation__image"></a>
             <div class="line"></div>
+            <div class="header__burger">
+                <span></span>
+            </div>
             <ul class="navigation__list">
                 <li class="navigation__item link-ease-in-out"><a href="index.html" class="navigation__link">Home</a>
                 </li>
@@ -22,11 +24,14 @@
                 </li>
                 <li class="navigation__item link-ease-in-out"><a href="about.html" class="navigation__link">O Mnie</a>
                 </li>
-                <li class="navigation__item link-ease-in-out"><a href="payment.html" class="navigation__link">Dostawa i płatność</a></li>
-                <li class="navigation__item link-ease-in-out"><a href="contacts.html" class="navigation__link">Kontakt</a></li>
+                <li class="navigation__item link-ease-in-out"><a href="payment.html" class="navigation__link">Dostawa i
+                    płatność</a></li>
+                <li class="navigation__item link-ease-in-out"><a href="contacts.html"
+                                                                 class="navigation__link">Kontakt</a></li>
+                <li class="navigation__item link-ease-in-out "><a href="cart.html" class="cart navigation__link" id="cart">Koshyk</a>
+                </li>
             </ul>
         </nav>
-    </div>
 </header>
 <main class="container">
     <div class="main-banner-slider">
@@ -76,13 +81,13 @@
     <div class="category">
         <h1 class="category__tittle tittle">Poznaj biżuterię ręcznie robioną!</h1>
         <div class="category__items">
-            <a href="" class="category__item">
+            <a href="earrings.html" class="category__item">
                 <div class="category__item-image">
                     <img src="./images/серьги.png" alt="">
                 </div>
                 <div class="category__item-name">kolczyki</div>
             </a>
-            <a href="" class="category__item">
+            <a href="rings.html" class="category__item">
                 <div class="category__item-image">
                     <img src="./images/кольца.png" alt="">
                 </div>
@@ -138,7 +143,7 @@
                 podarunkowych: 100zł, 200zł, 300zł, 400zł oraz 500zł.
             </p>
             <a href="gift-card.html" class="main-gift-card__description__action button">
-                Zamówić
+                Więcej
             </a>
         </div>
         <div class="main-gift-card__image">
@@ -161,7 +166,7 @@
                 kontaktu!
             </p>
             <a href="special-order.html" class="special-order__action button">
-                Zamówić
+                Więcej
             </a>
         </section>
     </div>
@@ -235,7 +240,7 @@
                 niepowtarzalny urok do Twojego
                 wnętrza, nadaje mu charakteru i poprawia nastrój.</p>
             <button class="special-order__action button">
-                Zamówić
+                Więcej
             </button>
         </div>
 
@@ -259,13 +264,18 @@
                 formularza.</p>
         </div>
         <form class="validation questions__form form-send">
-            <input aria-label="name" class="name" type="text" placeholder="Imię" id="name" name="name" data-reg="^[а-яА-ЯёЁa-zA-Z0-9]+$">
-            <input aria-label="" class="e-mail" type="text" placeholder="E-mail" id="mail" name="mail" data-reg="^[-\w.]+@([A-z0-9][-A-z0-9]+\.)+[A-z]{2,4}$">
-            <input aria-label="" class="theme" type="text" placeholder="Temat wiadomości" id="theme" name="theme" data-reg="^[а-яА-ЯёЁa-zA-Z0-9]+$">
-            <input aria-label="" class="questions__form__text" type="text" placeholder="Treść wiadomości" id="themeText" name="themeText" data-reg="^[а-яА-ЯёЁa-zA-Z0-9]+$">
+            <input aria-label="name" class="name" type="text" placeholder="Imię" id="name" name="name"
+                   data-reg="^[а-яА-ЯёЁa-zA-Z0-9]+$">
+            <input aria-label="" class="e-mail" type="text" placeholder="E-mail" id="mail" name="mail"
+                   data-reg="^[-\w.]+@([A-z0-9][-A-z0-9]+\.)+[A-z]{2,4}$">
+            <input aria-label="" class="theme" type="text" placeholder="Temat wiadomości" id="theme" name="theme"
+                   data-reg="^[а-яА-ЯёЁa-zA-Z0-9]+$">
+            <input aria-label="" class="questions__form__text" type="text" placeholder="Treść wiadomości" id="themeText"
+                   name="themeText" data-reg="^[а-яА-ЯёЁa-zA-Z0-9]+$">
             <div class="questions__form__rules">
                 <input id="rules" type="checkbox">
-                <label class="questions__form__rules__checkbox" for="rules">Wyrażam dobrowolnie zgodę na kontaktowanie się ze mną (przy użyciu
+                <label class="questions__form__rules__checkbox" for="rules">Wyrażam dobrowolnie zgodę na kontaktowanie
+                    się ze mną (przy użyciu
                     telekomunikacyjnych urządzeń końcowych i automatycznych systemów wywołujących) na podany
                     przeze mnie adres poczty elektronicznej lub numer telefonu, w celu odpowiedzi na zadane
                     pytanie.</label>
@@ -279,7 +289,8 @@
         <h3 class="footer__navigation__title">NAWIGACJA</h3>
         <ul class="footer__navigation__list">
             <li class="footer__navigation__list__item link-ease-in-out"><a href="shop.html">Sklep</a></li>
-            <li class="footer__navigation__list__item link-ease-in-out"><a href="special-order.html">Zamówienia indywidualne</a></li>
+            <li class="footer__navigation__list__item link-ease-in-out"><a href="special-order.html">Zamówienia
+                indywidualne</a></li>
             <li class="footer__navigation__list__item link-ease-in-out"><a href="packing.html">Opakowanie</a></li>
             <li class="footer__navigation__list__item link-ease-in-out"><a href="about.html">O mnie</a></li>
         </ul>
@@ -287,8 +298,10 @@
     <div class="footer__navigation">
         <h3 class="footer__navigation__title">DLA KLIENTA</h3>
         <ul class="footer__navigation__list">
-            <li class="footer__navigation__list__item link-ease-in-out"><a href="payment.html">Dostawa i płatność</a></li>
+            <li class="footer__navigation__list__item link-ease-in-out"><a href="payment.html">Dostawa i płatność</a>
+            </li>
             <li class="footer__navigation__list__item link-ease-in-out"><a href="care.html">Jak dbać</a></li>
+            <li class="footer__navigation__list__item link-ease-in-out"><a href="conditions.html">Regulamin</a></li>
         </ul>
     </div>
     <div class="footer__navigation">
@@ -308,11 +321,10 @@
     </div>
     <a href="#home" class="scroll-up"></a>
 </footer>
-
-</body>
-</html>
 <script src="js/jquery-3.7.1.min.js"></script>
 <script src="js/jquery-ui.min.js"></script>
 <script src="js/slick.min.js"></script>
 <script src="script.js"></script>
 <script src="js/form.js"></script>
+</body>
+</html>

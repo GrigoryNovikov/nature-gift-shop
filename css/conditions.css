@@ -1,0 +1,62 @@
+ol {
+    list-style: none;
+    margin-bottom: 120px;
+}
+
+span {
+    font-weight: 600;
+}
+
+.main-list li {
+    margin-bottom: 12px;
+}
+
+.numbers-list li {
+    margin-bottom: 7px;
+}
+
+.letters-list li {
+    margin-bottom: 5px;
+}
+
+.main-list {
+    font-size:21px;
+    font-weight: 600;
+    max-width: 1150px;
+}
+
+.numbers-list {
+    list-style-type: decimal;
+    font-size: 18px;
+    font-weight: 400;
+    margin-left: 30px;
+}
+
+.letters-list {
+    list-style-type: none;
+    font-size: 18px;
+    font-weight: 400;
+    margin-left: 30px;
+}
+
+.letters-list>li:nth-child(1)::before { content: 'a) '; }
+.letters-list>li:nth-child(2)::before { content: 'b) '; }
+.letters-list>li:nth-child(3)::before { content: 'c) '; }
+.letters-list>li:nth-child(4)::before { content: 'd) '; }
+.letters-list>li:nth-child(5)::before { content: 'e) '; }
+.letters-list>li:nth-child(6)::before { content: 'f) '; }
+.letters-list>li:nth-child(7)::before { content: 'g) '; }
+.letters-list>li:nth-child(8)::before { content: 'h) '; }
+.letters-list>li:nth-child(9)::before { content: 'i) '; }
+.letters-list>li:nth-child(10)::before { content: 'j) '; }
+
+.points-list {
+    list-style-type: disc;
+    font-size: 18px;
+    font-weight: 400;
+    margin-left: 20px;
+}
+
+.margin-left {
+    margin-left: 60px;
+}

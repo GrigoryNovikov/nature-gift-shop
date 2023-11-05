@@ -3,3 +3,17 @@
     height: 485px;
     margin-bottom: 30px;
 }
+
+#kolcz\.nezab\.serebro925, #kolcz\.nezab\.sfer, #kolczyki\.nezab\.gwozd\.1\.2cm, #kolczyki\.nezab\.gwozd\.1cm,
+#kolcz\.nezab\.romb, #kolczyki\.nezabud\.assimet, #kolczyki\.nezabud\.tabl\.2\.5cm, #kolczyki\.nezabud\.petli,
+#kolcz\.nezab\.tabl\.2cm, #kolcz\.nezab\.sfer\.zol, #kolczyki\.nezabud\.owal\.zol, #kolczyki\.nezabud\.kolca,
+#kolcz\.proles, #kolcz\.komp\.kapl\.korotk\.sin, #kolczyki\.komp\.biruza, #kolcz\.komp\.kapl\.dlin\.sin,
+#kolczyki\.skelet\.gwozd, #kolcz\.skilet\.tabl\.2cm, #kolcz\.oblak, #kolcz\.oblak\.assimetr,
+#kolcz\.komp\.biruz\.sfera, #kolcz\.wasil\.cepi , #kolcz\.komp\.fiolet\.sfera, #kolczyki\.gort\.protia,
+#kolczyki\.prot\.ramki, #kolczyki\.oduwan\.palocz, #kolczyki\.oduwan\.cepi, #kolczyki\.oduwan\.sfer\.zol,
+#kolcz\.oduwan\.zol\.prozr\.dlin, #kolcz\.oduwan\.zol\.prozr\.trancf,
+
+#kolcz\.oduwan\.temn\.owal, #kolcz\.oduwan\.temn\.tabl, #kolcz\.oduwan\.temn\.sfer, #kolczyki\.oduwan\.temn\.palocz,
+#kolcz\.oduwan\.zol\.temn, #kolczyki\.oduwan\.gwozd, #kolczyki\.oduwan\.owal\.zol, #kolczyki\.oduwan\.dlinn\.temn {
+    display: none;
+}

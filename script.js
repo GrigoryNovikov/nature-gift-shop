@@ -16,6 +16,7 @@ $(document).ready(() => {
         slidesToScroll: 1,
         prevArrow: "<img src='images/left_arrow.svg' alt='1' class='slick-prev'>",
         nextArrow: "<img src='images/right_arrow.svg' alt='1' class='slick-next'>",
+        adaptiveHeight: true
     });
 
     $('.feedback__slider, .spec-order-slider').slick({

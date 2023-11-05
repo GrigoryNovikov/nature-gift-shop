@@ -4,7 +4,8 @@ $(document).ready(() => {
         slidesToScroll: 1,
         arrows: false,
         fade: true,
-        asNavFor: '.big-lamp__slider__nav'
+        asNavFor: '.big-lamp__slider__nav',
+        adaptiveHeight: true
     });
     $('.big-lamp__slider__nav').slick({
         slidesToShow: 4,
@@ -12,7 +13,8 @@ $(document).ready(() => {
         arrows: false,
         asNavFor: '.big-lamp__slider',
         centerMode: false,
-        focusOnSelect: true
+        focusOnSelect: true,
+        adaptiveHeight: true
     });
 });
 

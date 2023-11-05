@@ -1,6 +1,7 @@
 /*1024-1229*/
 @media screen and (max-width: 1229px) {
     .container {
+        max-width: 1024px;
         padding-left: 20px;
         padding-right: 20px;
     }
@@ -138,6 +139,10 @@
         font-size: 18px;
     }
 
+    .questions {
+        margin: 30px 20px 0;
+    }
+
     .feedback {
         height: 580px;
     }
@@ -185,77 +190,553 @@
     }
 
     .scroll-up {
-        right: 45px;
+        right: 33px;
         bottom: 95px;
+    }
+
+    /*shop*/
+    .shop__banner {
+        background-size: cover;
+        height: 350px;
+    }
+
+    .shop__items {
+        padding: 0;
+        justify-content: space-evenly;
+    }
+
+    .shop__item {
+        width: 300px;
+        height: 365px;
+        margin: 12px;
+    }
+
+    .shop__item__image {
+        max-width: 300px;
+    }
+
+    .shop__item__description {
+        font-size: 28px;
+    }
+
+    .other-product {
+        width: 225px;
+        height: 285px;
+    }
+
+    .other-product img {
+        width: 225px;
+
+    }
+
+    .other-product .shop__item__description {
+        font-size: 21px;
+    }
+
+    .care__banner {
+        background-size: cover;
+        height: 250px;
+    }
+
+    .contact-list, .open-hours {
+        max-width: 1024px;
+        margin: 30px 20px;
+    }
+
+    .contact-list {
+        padding-left: 40px;
+    }
+
+    /*about*/
+    .mnie__banner {
+        margin: 0 20px;
+        background-size: cover;
+        height: 250px;
+    }
+
+    .mnie__info {
+        margin-left: 20px;
+        margin-right: 20px;
+        height: 580px;
+    }
+
+    .mnie__info__image img {
+        max-width: 400px;
+    }
+
+    .mnie__info__text__tittle {
+        margin-bottom: 0;
+        font-size: 55px;
+    }
+
+    .mnie__info__text__description {
+        width: 406px;
+        font-size: 17px;
+        margin-bottom: 10px;
+    }
+
+    .instagram {
+        margin: 20px 0;
+    }
+
+    .instagram__tittle {
+        font-size: 50px;
+    }
+
+    .instagram__link {
+        font-size: 22px;
+    }
+
+    .instagram__item img {
+        max-width: 200px;
+        max-height: 200px;
+    }
+
+    /*gift-card*/
+    .gift-card-title {
+        font-size: 50px;
+        margin-bottom: 20px;
+    }
+
+    .gift-card-list__item {
+        font-size: 19px;
+    }
+
+    .gift-card-images__item img {
+        max-width: 400px;
+    }
+
+    .gift-card-images__item__text {
+        margin: 15px 0;
+        font-size: 25px;
+    }
+
+    .gift-card-description p, .gift-card-use p {
+        font-size: 30px;
+    }
+
+    .gift-card-description__list__item, .gift-card-use__list__item {
+        font-size: 19px;
+    }
+
+    .questions__tittle {
+        font-size: 35px;
+    }
+
+    /*night-lamp*/
+    .lamp__banner {
+        margin: 0 20px 20px;
+        height: 430px;
+    }
+
+    .lamp__tittle {
+        font-size: 50px;
+    }
+
+    .lamp {
+        margin: 0 20px;
+    }
+
+    .lamp__items {
+        margin-bottom: 100px;
+    }
+
+    .lamp__item {
+        max-width: 400px;
+        max-height: 500px;
+    }
+
+    .lamp__item__image {
+        max-width: 400px;
+    }
+
+    .lamp__item__text {
+        font-size: 35px;
+    }
+
+    /*big/small-lamps*/
+    .big-lamp__slider__image.slick-slide img {
+        max-width: 416px;
+    }
+
+    .big-lamp__slider__nav__image.slick-slide img {
+        max-width: 100px;
+        max-height: 100px;
+    }
+
+    div.slick-list.draggable {
+        max-width: 419px;
+    }
+
+    .big-lamp__article__title {
+        font-size: 35px;
+    }
+
+    .big-lamp__article__price {
+        font-size: 25px;
+        margin-bottom: 6px;
+    }
+
+    .big-lamp__article__text {
+        margin-bottom: 8px;
+        max-width: 500px;
+        font-size: 19px;
+    }
+
+    .big-lamp__article__description__title {
+        font-size: 35px;
+    }
+
+    .big-lamp__article__description__text {
+        font-size: 19px;
+        max-width: 500px;
+    }
+
+    .individual-order__title {
+        font-size: 50px;
+    }
+
+    .individual-order__text {
+        font-size: 19px;
+    }
+
+    .individual-order__link {
+        font-size: 25px;
+    }
+
+    /*packing*/
+    .packing__banner {
+        margin: 0 20px;
+    }
+
+    .packing__info {
+        margin: 20px 20px 0;
+    }
+
+    .packing__info__text__tittle {
+        font-size: 60px;
+    }
+
+    .packing__info__text__description {
+        width: 400px;
+        font-size: 18px;
+    }
+
+    /*catalog*/
+    .bracelets-banner, .necklaces-banner {
+        margin-bottom: 15px;
+    }
+
+    .necklaces-banner {
+        height: 350px;
+        background-size: cover;
+    }
+
+    .brooches-banner, .bracelets-banner {
+        background-size: cover;
+        height: 400px;
+    }
+
+    .pendants-banner {
+        height: 450px;
+        margin-bottom: 15px;
+    }
+
+    .catalog-items {
+        padding: 0;
+    }
+
+    .catalog-item {
+        max-width: 226px;
+        margin: 15px 10px 0;
+    }
+
+    .catalog-item__image {
+        max-width: 226px;
+    }
+
+    .catalog-item__description {
+        font-size: 16px;
+    }
+
+    .catalog-item__price {
+        font-size: 17px;
+    }
+
+    /*special order*/
+    .spec-order-banner {
+        background-size: cover;
+        height: 390px;
+    }
+
+    .spec-order {
+        height: 690px;
+    }
+
+    .spec-order-content__title {
+        font-size: 45px;
+    }
+
+    .spec-order-content-list__item {
+        font-size: 17px;
+    }
+
+    .spec-order-content-list {
+        max-width: 450px;
+        margin: 0 auto;
+    }
+
+    .spec-order-content .individual-order__link {
+        font-size: 19px;
+    }
+
+    .spec-order-slider {
+        width: 419px;
+        height: 450px;
     }
 }
 
+
 /*768-1023*/
 @media screen and (max-width: 1023px) {
-    .main-banner-slide {
-        height: 458px;
+    .container {
+
+    }
+
+    .navigation__link {
+        font-size: 22px;
+    }
+
+    .slick-slider .slick-track, .slick-slider .slick-list {
+        max-height: 353px;
     }
 
     .banner__tittle {
         line-height: 40px;
+        font-size: 45px;
     }
 
     .first .banner__text {
-        max-width: 337px;
+        max-width: 245px;
+        padding-top: 85px;
     }
+
     .second .banner__text {
-        padding-top: 90px;
-        padding-left: 210px;
-        margin-left: 85px;
+        padding-top: 50px;
+        padding-left: 95px;
     }
+
     .third .banner__text {
-        max-width: 520px;
+        max-width: 495px;
+        padding-top: 75px;
+        padding-left: 50px;
     }
 
     .banner__description {
-        font-size: 18px;
+        font-size: 16px;
+    }
+
+    .category {
+        margin-top: 20px;
+    }
+
+    .category__tittle {
+        font-size: 50px;
+    }
+
+    .category__item {
+        padding-bottom: 5px;
+    }
+
+    .category__item-image img {
+        max-width: 200px;
+    }
+
+    .category__item-name {
+        font-size: 22px;
     }
 
     .packing {
         background-size: contain;
-        height: 367px;
+        height: 284px;
     }
+
+    .packing__text {
+        padding-left: 370px;
+        padding-top: 20px;
+    }
+
 
     .packing__tittle {
         margin-bottom: 0;
+        font-size: 45px;
     }
 
     .packing__description {
         margin-bottom: 11px;
+        font-size: 16px;
     }
 
-    .packing__text {
-        padding-left: 500px;
-        padding-top: 45px;
+    .button {
+        font-size: 18px;
+        width: 150px;
+    }
+
+    .main-gift-card {
+        margin-top: 20px;
+    }
+
+    .main-gift-card__description {
+        width: 300px;
+    }
+
+    .main-gift-card__description__tittle {
+        margin-bottom: 0;
+    }
+
+    .main-gift-card__description__text,
+    .main-gift-card__description__price {
+        font-size: 16px;
+        max-width: 250px;
+    }
+
+    .main-gift-card__image img {
+        max-width: 370px;
     }
 
     .special-order {
-        height: 482px;
+        height: 374px;
+        margin-top: 20px;
     }
 
-    .plate__slider__action {
-        margin-left: 37px;
+    .special-order__description {
+        padding-top: 20px;
+        padding-right: 0;
     }
 
-    .feedback__text__tittle {
+    .special-order__description__tittle {
+        margin-bottom: 0;
+    }
+
+    .special-order__description__text {
+        max-width: 275px;
+        margin-bottom: 10px;
+    }
+
+    .lamp__text {
+        margin-top: 20px;
+    }
+
+    .lamp__text__tittle {
         font-size: 45px;
     }
 
+    .lamp__text__description {
+        font-size: 20px;
+        max-width: 600px;
+    }
+
+    .lamp__slider, .plate__slider {
+        margin-top: 20px;
+    }
+
+    .lamp__slider__action, .plate__slider__action {
+        max-width: 350px;
+        max-height: 350px;
+    }
+
+    .lamp__slider__action {
+        margin-left: 10px;
+    }
+
+    .slick-slide img {
+        max-width: 350px;
+    }
+
+    .lamp__slider__text__tittle {
+        font-size: 40px;
+        line-height: 30px;
+    }
+
+    .lamp__slider__text__description {
+        font-size: 16px;
+        max-width: 350px;
+        margin-bottom: 10px;
+    }
+
+    .lamp__slider__text button {
+        margin-top: 5px;
+    }
+
+    .plate__slider__action {
+        margin-left: 0;
+    }
+
+    .feedback {
+        height: 430px;
+        margin-top: 20px;
+    }
+
+    .feedback__text__tittle {
+        font-size: 40px;
+        line-height: 30px;
+    }
+
     .feedback__text p {
-        font-size: 22px;
+        font-size: 18px;
     }
 
     .feedback__slider {
-        margin: 47px auto 0 auto;
+        margin: 42px auto 0 auto;
+        max-width: 485px;
+    }
+
+    .feedback .slick-slide img {
+        max-width: 485px;
+    }
+
+
+    .questions__text p {
+        font-size: 18px;
+    }
+
+    .questions {
+        margin-top: 20px;
+        height: 450px;
+    }
+
+    .questions__form {
+        margin-top: 15px;
+    }
+
+    .name, .questions__form__text, .e-mail, .theme {
+        width: 650px;
+    }
+
+    label {
+        max-width: 630px;
+    }
+
+    .form-button {
+        width: 200px;
     }
 
     .footer {
-        padding-left: 50px;
+        padding-left: 30px;
+        height: 165px;
+    }
+
+    .footer__navigation {
+        margin-right: 35px;
+    }
+
+    .footer__navigation__title {
+        font-size: 22px;
+    }
+
+    .footer__navigation__title::after {
+        width: 55px;
+        margin: 0 0 8px 9px;
     }
 
     .footer__navigation__list {
@@ -267,77 +748,169 @@
     }
 
     .footer__navigation__list__item a img {
-        width: 45px;
-        height: 45px;
+        width: 35px;
+        height: 35px;
     }
 
     .scroll-up {
-        right: 28px;
-        bottom: 108px;
+        width: 35px;
+        height: 35px;
+        right: 12px;
+        bottom: 99px;
+    }
+
+    .necklaces-banner, .earrings-banner {
+        background-size: contain;
+        height: 249px;
+        margin-bottom: 20px;
+    }
+
+    .earrings-banner {
+        height: 291px;
+    }
+
+    .back-arrow img {
+        width: 75px;
+        height: 75px;
+    }
+
+    .catalog-items-title {
+        font-size: 45px;
+        line-height: 40px;
+    }
+
+    .catalog-items {
+        margin-top: 15px;
+        padding: 0 7px;
+    }
+
+    .catalog-item {
+        margin: 15px 19px 0;
+    }
+
+    .catalog-item__image {
+        max-width: 200px;
+    }
+
+    .catalog-item__description {
+        max-width: 200px;
+        font-size: 16px;
+    }
+
+    .catalog-item__price {
+        font-size: 16px;
+    }
+
+    .catalog-item-card__article__title {
+        font-size: 25px;
+    }
+
+    .catalog-item-card__article__price {
+        font-size: 22px;
+        margin-bottom: 10px;
+    }
+
+    .catalog-item-card__article__text {
+        font-size: 16.5px;
+        line-height: unset;
+        margin-bottom: 5px;
+        width: 350px;
+    }
+
+    .catalog-item-card__article__description__title {
+        font-size: 25px;
+    }
+
+    .catalog-item-card__article__description__text {
+        font-size: 16.5px;
+        line-height: 25px;
+        max-width: 600px;
+    }
+
+    .catalog-item-card__button {
+        margin-top: 10px;
+    }
+
+    .catalog-item-card__action__slider {
+        margin-right: 20px;
+    }
+
+    .catalog-item-card__action__slider__nav__image.slick-slide img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .catalog-item-card__action__slider__nav__image.slick-slide {
+        max-width: 117px;
+    }
+
+    div.slick-list.draggable {
+        width: 350px;
+    }
+
+    .slick-slide img {
+        max-width: 334px;
     }
 }
 
 /*425-767*/
 @media screen and (max-width: 767px) {
-
-    #header-container {
-        justify-content: center;
-        flex-wrap: wrap;
+    .navigation__logo img {
+        height: 75px;
     }
 
-    #menu {
-        order: 3;
-        margin-top: 15px;
-        flex-basis: 100%;
-        justify-content: center;
+    .line {
+        height: 19px;
+        margin-top: -19px;
     }
 
-    #menu a.menu-item {
-        margin: 0 5px;
+    .header__burger {
+        display: block;
+        position: relative;
+        width: 30px;
+        height: 20px;
+        z-index: 3;
+        right: 0;
     }
 
-    #cart {
-        margin-left: 20px;
+    .header__burger::after,
+    .header__burger::before {
+        content: '';
+        position: absolute;
+        width: 100%;
+        background-color: var(--color-text);
+        height: 2px;
+        left: 0;
     }
 
-    #main-info h1 {
-        line-height: 45px;
+    .header__burger::before {
+        top: 0;
     }
 
-    #main-advantages {
-        max-width: 300px;
-        margin: 0 auto;
+    .header__burger::after {
+        bottom: 0;
     }
 
-    #order-container {
-        flex-wrap: wrap;
-        text-align: center;
+    .header__burger span {
+        position: absolute;
+        width: 100%;
+        background-color: var(--color-text);
+        height: 2px;
+        left: 0;
+        top: 9px;
     }
 
-    #order-text-tittle {
-        line-height: 35px;
+    .navigation__list {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 3;
+        display: block;
     }
 
-    #order-text-message {
-        margin-top: 25px;
-        margin-bottom: 25px;
-    }
 
-    #order-form {
-        margin: 0 10px;
-    }
-
-    #order-image {
-        right: calc(50% - 200px);
-    }
-
-    #rights {
-        margin: 0;
-    }
-
-    #footer-container {
-        justify-content: space-between;
-    }
 }
 
 /*375-424*/
@@ -351,7 +924,7 @@
         justify-content: flex-start;
         margin: 0;
         padding-top: 30px;
-        background: rgba(0,0,0,0.74);
+        background: rgba(0, 0, 0, 0.74);
         top: 0;
         left: 0;
         display: none;

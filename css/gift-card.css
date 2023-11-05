@@ -51,6 +51,10 @@
     margin-bottom: 25px;
 }
 
+.gift-card-description, .gift-card-use {
+    padding-left: 30px;
+}
+
 .gift-card-description p {
     font-size: 35px;
     margin-left: 10px;

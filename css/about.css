@@ -39,7 +39,7 @@
 
 .mnie__info__text__description {
     width: 510px;
-    text-align: justify;
+    text-align: center;
     color: var(--color-text);
     font-size: 20px;
     margin-bottom: 15px;

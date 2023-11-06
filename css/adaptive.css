@@ -15,8 +15,12 @@
         font-size: 50px;
     }
 
+    .first .banner__text {
+        padding-left: 67px;
+    }
+
     .second .banner__text {
-        padding-top: 70px;
+        padding-top: 45px;
         padding-left: 350px;
     }
 
@@ -26,7 +30,7 @@
     }
 
     .third .banner__text {
-        padding-top: 120px;
+        padding-top: 95px;
         width: 580px;
     }
 
@@ -49,15 +53,20 @@
         font-size: 30px;
     }
 
+    .packing__text {
+        padding-left: 500px;
+        padding-top: 60px;
+    }
+
     .packing__tittle {
         font-size: 54px;
-        margin-bottom: 15px;
+        margin-bottom: 10px;
     }
 
     .packing__description {
-        font-size: 19px;
-        max-width: 300px;
-        margin-bottom: 7px;
+        font-size: 17px;
+        max-width: 370px;
+        margin-bottom: 17px;
     }
 
     .button {
@@ -82,22 +91,24 @@
     }
 
     .special-order {
-        background-size: contain;
+        background-size: cover;
         height: 505px;
     }
 
     .special-order__description__tittle {
-        font-size: 40px;
+        font-size: 45px;
+        margin-bottom: 10px;
     }
 
     .special-order__description {
-        max-width: 350px;
+        max-width: 380px;
         padding-top: 80px;
     }
 
     .special-order__description__text {
-        font-size: 16px;
-        max-width: 330px;
+        font-size: 18px;
+        max-width: 400px;
+        margin-bottom: 10px;
     }
 
     .lamp__text {
@@ -194,6 +205,10 @@
         bottom: 95px;
     }
 
+    .hairpins__slider {
+        height: 500px;
+    }
+
     /*shop*/
     .shop__banner {
         background-size: cover;
@@ -249,14 +264,11 @@
 
     /*about*/
     .mnie__banner {
-        margin: 0 20px;
         background-size: cover;
         height: 250px;
     }
 
     .mnie__info {
-        margin-left: 20px;
-        margin-right: 20px;
         height: 580px;
     }
 
@@ -265,6 +277,7 @@
     }
 
     .mnie__info__text__tittle {
+        margin-top: 10px;
         margin-bottom: 0;
         font-size: 55px;
     }
@@ -285,6 +298,10 @@
 
     .instagram__link {
         font-size: 22px;
+    }
+
+    .instagram__items {
+        padding: 0;
     }
 
     .instagram__item img {
@@ -325,8 +342,9 @@
 
     /*night-lamp*/
     .lamp__banner {
-        margin: 0 20px 20px;
-        height: 430px;
+        background-size: cover;
+        margin-bottom: 20px;
+        height: 380px;
     }
 
     .lamp__tittle {
@@ -335,10 +353,6 @@
 
     .lamp {
         margin: 0 20px;
-    }
-
-    .lamp__items {
-        margin-bottom: 100px;
     }
 
     .lamp__item {
@@ -362,10 +376,6 @@
     .big-lamp__slider__nav__image.slick-slide img {
         max-width: 100px;
         max-height: 100px;
-    }
-
-    div.slick-list.draggable {
-        max-width: 419px;
     }
 
     .big-lamp__article__title {
@@ -405,12 +415,14 @@
     }
 
     /*packing*/
-    .packing__banner {
-        margin: 0 20px;
+
+    .packing {
+        background-size: cover;
+        height: 384px;
     }
 
     .packing__info {
-        margin: 20px 20px 0;
+        margin: 20px 0 0;
     }
 
     .packing__info__text__tittle {
@@ -419,7 +431,7 @@
 
     .packing__info__text__description {
         width: 400px;
-        font-size: 18px;
+        font-size: 17px;
     }
 
     /*catalog*/
@@ -474,11 +486,12 @@
     }
 
     .spec-order-content__title {
-        font-size: 45px;
+        font-size: 48px;
+        margin-top: 10px;
     }
 
     .spec-order-content-list__item {
-        font-size: 17px;
+        font-size: 16px;
     }
 
     .spec-order-content-list {
@@ -517,6 +530,7 @@
     }
 
     .first .banner__text {
+        padding-left: 67px;
         max-width: 245px;
         padding-top: 85px;
     }

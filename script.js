@@ -6,7 +6,7 @@ $(document).ready(() => {
         prevArrow: "<img src='images/left_arrow.svg' alt='1' class='slick-prev'>",
         nextArrow: "<img src='images/right_arrow.svg' alt='1' class='slick-next'>",
         autoplay: false,
-        autoplaySpeed: 3000,
+        autoplaySpeed: 1500,
         pauseOnHover: true
     });
 
@@ -26,6 +26,7 @@ $(document).ready(() => {
         prevArrow: "<img src='images/left_arrow.svg' alt='1' class='slick-prev'>",
         nextArrow: "<img src='images/right_arrow.svg' alt='1' class='slick-next'>",
         autoplay: false,
+        autoplaySpeed: 1500,
         pauseOnHover: true
     });
 })

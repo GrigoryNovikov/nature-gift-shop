@@ -41,6 +41,7 @@ $(document).ready(() => {
         arrows: false,
         asNavFor: '.catalog-item-card__action__slider',
         centerMode: false,
+        adaptiveHeight: true,
         focusOnSelect: true,
         mobileFirst: true,
         responsive: [

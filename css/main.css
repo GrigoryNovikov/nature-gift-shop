@@ -358,14 +358,14 @@ body {
 
 .packing__tittle {
     font-size: 60px;
-    margin-bottom: 25px;
+    margin-bottom: 10px;
 }
 
 .packing__description {
-    max-width: 380px;
+    max-width: 450px;
     font-size: 20px;
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 23px;
 }
 
 .packing__action {
